@@ -68,7 +68,7 @@
 	
     if (balansers_with_search == undefined) {
       network.timeout(10000);
-      network.silent(account('{localhost}/lite/withsearch'), function(json) {
+      network.silent(account('https://redst1x.github.io/lampax/lite/withsearch'), function(json) {
         balansers_with_search = json;
       }, function() {
 		  balansers_with_search = [];
