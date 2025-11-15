@@ -3,7 +3,7 @@
 
   var Defined = {
     api: 'lampac',
-    localhost: 'http://z01.online/',
+    localhost: '{localhost}/',
     apn: ''
   };
 
@@ -68,7 +68,7 @@
 	
     if (balansers_with_search == undefined) {
       network.timeout(10000);
-      network.silent(account('http://z01.online/lite/withsearch'), function(json) {
+      network.silent(account('{localhost}/lite/withsearch'), function(json) {
         balansers_with_search = json;
       }, function() {
 		  balansers_with_search = [];
