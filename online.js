@@ -3,7 +3,7 @@
 
   var Defined = {
     api: 'lampac',
-    localhost: '{localhost}/',
+    localhost: 'https://redst1x.github.io/lmpa/',
     apn: ''
   };
 
