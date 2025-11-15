@@ -18,7 +18,7 @@ Lampa.Settings.listener.follow('open', function(e) {
   if (e.name == 'main') {
     e.body.find('[data-component="pirate_store"]').on('hover:enter', function() {
       Lampa.Extensions.show({
-        store: '{localhost}/extensions',
+        store: 'https://redst1x.github.io/lmpa/',
         with_installed: true
       });
     });
@@ -30,3 +30,4 @@ else {
     if (e.type == 'ready') addStore();
   });
 }
+
